@@ -8,19 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var loginViewModel: LoginViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        switch loginViewModel.authenticated {
+        case 0:
+            LoginView()
+        case 1:
+            Home2View()
+        case 2:
+            ErrorView()
+        default:
+            ErrorView()
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(LoginViewModel())
     }
 }

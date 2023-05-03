@@ -11,6 +11,16 @@
 		EDD619F32A01F0170012BAE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD619F22A01F0170012BAE2 /* ContentView.swift */; };
 		EDD619F52A01F0190012BAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD619F42A01F0190012BAE2 /* Assets.xcassets */; };
 		EDD619F82A01F0190012BAE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD619F72A01F0190012BAE2 /* Preview Assets.xcassets */; };
+		EDD61A022A01F2CD0012BAE2 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A012A01F2CD0012BAE2 /* PostModel.swift */; };
+		EDD61A042A01F3B20012BAE2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A032A01F3B20012BAE2 /* LoginViewModel.swift */; };
+		EDD61A062A01FF120012BAE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A052A01FF120012BAE2 /* LoginView.swift */; };
+		EDD61A082A01FF1B0012BAE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A072A01FF1B0012BAE2 /* HomeView.swift */; };
+		EDD61A0A2A0204330012BAE2 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A092A0204330012BAE2 /* ErrorView.swift */; };
+		EDD61A0C2A024F0D0012BAE2 /* Model1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A0B2A024F0D0012BAE2 /* Model1.swift */; };
+		EDD61A0E2A024F480012BAE2 /* Modelo1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A0D2A024F480012BAE2 /* Modelo1ViewModel.swift */; };
+		EDD61A102A0256950012BAE2 /* Model2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A0F2A0256950012BAE2 /* Model2.swift */; };
+		EDD61A122A02576C0012BAE2 /* Model2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A112A02576C0012BAE2 /* Model2ViewModel.swift */; };
+		EDD61A142A0257CD0012BAE2 /* Home2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD61A132A0257CD0012BAE2 /* Home2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		EDD619F22A01F0170012BAE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDD619F42A01F0190012BAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD619F72A01F0190012BAE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDD61A012A01F2CD0012BAE2 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		EDD61A032A01F3B20012BAE2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EDD61A052A01FF120012BAE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EDD61A072A01FF1B0012BAE2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EDD61A092A0204330012BAE2 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		EDD61A0B2A024F0D0012BAE2 /* Model1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model1.swift; sourceTree = "<group>"; };
+		EDD61A0D2A024F480012BAE2 /* Modelo1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1ViewModel.swift; sourceTree = "<group>"; };
+		EDD61A0F2A0256950012BAE2 /* Model2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model2.swift; sourceTree = "<group>"; };
+		EDD61A112A02576C0012BAE2 /* Model2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model2ViewModel.swift; sourceTree = "<group>"; };
+		EDD61A132A0257CD0012BAE2 /* Home2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,9 @@
 		EDD619EF2A01F0170012BAE2 /* ReadJSON */ = {
 			isa = PBXGroup;
 			children = (
+				EDD61A002A01F2A20012BAE2 /* ViewModel */,
+				EDD619FF2A01F29D0012BAE2 /* View */,
+				EDD619FE2A01F2970012BAE2 /* Model */,
 				EDD619F02A01F0170012BAE2 /* ReadJSONApp.swift */,
 				EDD619F22A01F0170012BAE2 /* ContentView.swift */,
 				EDD619F42A01F0190012BAE2 /* Assets.xcassets */,
@@ -65,6 +88,37 @@
 				EDD619F72A01F0190012BAE2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD619FE2A01F2970012BAE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDD61A012A01F2CD0012BAE2 /* PostModel.swift */,
+				EDD61A0B2A024F0D0012BAE2 /* Model1.swift */,
+				EDD61A0F2A0256950012BAE2 /* Model2.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDD619FF2A01F29D0012BAE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDD61A052A01FF120012BAE2 /* LoginView.swift */,
+				EDD61A072A01FF1B0012BAE2 /* HomeView.swift */,
+				EDD61A092A0204330012BAE2 /* ErrorView.swift */,
+				EDD61A132A0257CD0012BAE2 /* Home2View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDD61A002A01F2A20012BAE2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDD61A032A01F3B20012BAE2 /* LoginViewModel.swift */,
+				EDD61A0D2A024F480012BAE2 /* Modelo1ViewModel.swift */,
+				EDD61A112A02576C0012BAE2 /* Model2ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD61A142A0257CD0012BAE2 /* Home2View.swift in Sources */,
+				EDD61A042A01F3B20012BAE2 /* LoginViewModel.swift in Sources */,
+				EDD61A122A02576C0012BAE2 /* Model2ViewModel.swift in Sources */,
+				EDD61A0C2A024F0D0012BAE2 /* Model1.swift in Sources */,
 				EDD619F32A01F0170012BAE2 /* ContentView.swift in Sources */,
+				EDD61A022A01F2CD0012BAE2 /* PostModel.swift in Sources */,
+				EDD61A102A0256950012BAE2 /* Model2.swift in Sources */,
+				EDD61A082A01FF1B0012BAE2 /* HomeView.swift in Sources */,
+				EDD61A0A2A0204330012BAE2 /* ErrorView.swift in Sources */,
+				EDD61A062A01FF120012BAE2 /* LoginView.swift in Sources */,
 				EDD619F12A01F0170012BAE2 /* ReadJSONApp.swift in Sources */,
+				EDD61A0E2A024F480012BAE2 /* Modelo1ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

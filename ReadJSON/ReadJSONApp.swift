@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ReadJSONApp: App {
+    let loginViewModel = LoginViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(loginViewModel)
         }
     }
 }
